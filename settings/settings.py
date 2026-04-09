@@ -3,6 +3,9 @@ import environ
 import os
 
 
+# Changes default project user to AbstractUser
+AUTH_USER_MODEL = "accounts.User"
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 env = environ.Env(
@@ -24,6 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Apps
+    'accounts',
 ]
 
 MIDDLEWARE = [
