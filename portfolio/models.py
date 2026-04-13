@@ -7,3 +7,6 @@ class Portfolio(models.Model):
     name = models.CharField(max_length=255, null=True, blank=True)
     description = models.CharField(max_length=255, null=True, blank=True)
     created_at = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
