@@ -1,6 +1,6 @@
 from django.db import models
 
-# name, ticker, last_price
+
 class Stock(models.Model):
     name = models.CharField(null=False, blank=False, max_length=55)
     ticker = models.CharField(null=False, blank=False, max_length=55)
