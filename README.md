@@ -5,12 +5,12 @@ API para gerenciamento de carteira de investimentos, permitindo registro de tran
 Integração com API da bolsa para precificação em tempo real.
 
 ## ⚙️ Tecnologias
-- 🐍 Python  
-- 🚀 Django / FastAPI  
-- 🗄️ PostgreSQL  
-- 🐳 Docker  
-- 🐇 Celery + Redis  
-- 🧪 Pytest  
+- Python  
+- Django / FastAPI  
+- PostgreSQL  
+- Docker  
+- Celery + Redis  
+- Pytest  
 
 ## 🧱 Funcionalidades (fase 1)
 - Cadastro de ativos  
